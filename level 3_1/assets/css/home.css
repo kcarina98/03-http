@@ -1,0 +1,90 @@
+@font-face {
+  font-family: nunito;
+  src: url("../font/Nunito-VariableFont_wght.ttf");
+}
+
+* {
+  font-family: nunito;
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(to bottom right, #daa52044, #daa520);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  margin-bottom: 100px;
+}
+
+nav div {
+  z-index: 2;
+  width: 70%;
+}
+
+nav div a {
+  color: rgba(0, 0, 0, 0.75);
+  text-decoration: none;
+  font-size: 1.6rem;
+  margin-right: 5%;
+}
+
+nav div button {
+  background-color: #f9bdbd;
+  border-radius: 10px;
+  padding: 10px 35px;
+  font-size: 1.6rem;
+}
+
+/*# HOME */
+.box {
+  width: 80%;
+  margin: 5% auto;
+  background-color: white;
+  border-radius: 50px;
+  position: relative;
+}
+
+.home {
+  display: flex;
+  padding-left: 100px;
+}
+
+.home h2 {
+  font-size: 3.6rem;
+  width: 70%;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.home h1 {
+  font-size: 7.2rem;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.home button {
+  background-color: #daa520;
+  color: white;
+  border: none;
+  font-size: 1.6rem;
+  padding: 10px 25px;
+}
+
+.tisch {
+  z-index: 1;
+}
+
+.rosa {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 90%;
+  width: 35%;
+  z-index: 0;
+}

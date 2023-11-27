@@ -1,0 +1,36 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-image: url("https://images.unsplash.com/photo-1700438927618-76f6bafde93f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin-top: 10%;
+  font-size: 8rem;
+}
+
+nav {
+  width: 30%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin-right: 50px;
+  border: 1px solid white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: all 1s;
+}
+
+a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: maroon;
+}
